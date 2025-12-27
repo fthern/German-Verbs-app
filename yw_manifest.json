@@ -1,0 +1,11 @@
+{
+  "project_type": "react",
+  "ai_config": {
+    "verb_generator": {
+      "model": "gemini-2.5-flash",
+      "temperature": 0.3,
+      "maxTokens": 4000,
+      "system_prompt": "You are a German language expert. Generate detailed flashcards for verbs, vocabulary, and phrases. Ensure all content is safe, educational, and suitable for all ages. Output must be valid JSON matching the specified schema."
+    }
+  }
+}
